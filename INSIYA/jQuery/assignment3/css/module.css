@@ -1,0 +1,88 @@
+.mainbody{
+width:100%;
+float:left;
+}
+.module-first{
+width:100%;
+border:1px solid;
+height:100px;
+}
+
+.module1a{
+margin-top:20px;
+width:49%;
+border:1px solid;
+height:100px;
+float:left;	
+}
+.module1b{
+margin-top:20px;
+width:49%;
+border:1px solid;
+height:100px;
+margin-left:1%;
+float:left;	
+}
+.module2a{
+margin-top:20px;
+width:33%;
+border:1px solid;
+height:100px;
+float:left;
+	
+}
+.module2b{
+margin-top:20px;
+width:32%;
+border:1px solid;
+height:100px;
+float:left;
+margin-left:1%;	
+}
+.module2c{
+margin-top:20px;
+width:32%;
+border:1px solid;
+height:100px;
+float:left;
+margin-left:1%;	
+}
+.module3a{
+margin-top:20px;
+width:24%;
+border:1px solid;
+height:100px;
+float:left;
+	
+}
+.module3b{
+margin-top:20px;
+width:24%;
+border:1px solid;
+height:100px;
+float:left;
+margin-left:1%;	
+}
+.module3c{
+margin-top:20px;
+width:24%;
+border:1px solid;
+height:100px;
+float:left;
+margin-left:1%;	
+}
+.module3d{
+margin-top:20px;
+width:23%;
+border:1px solid;
+height:100px;
+float:left;
+margin-left:1%;	
+}
+.module-last{
+width:100%;
+border:1px solid;
+height:100px;
+float:left;
+margin-top:20px;
+}

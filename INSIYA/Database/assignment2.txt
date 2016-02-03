@@ -1,0 +1,69 @@
+1. Create proc user_fields
+ (
+ @id       int,
+ @name     varchar(20),
+ @age      int,
+ @address  varchar(50),
+ @created  timestamp(10)
+ )
+ As
+ Begin
+ Select * from user_fields
+ End
+
+2.Create proc user_fields
+ (
+ @id       int,
+ @name     varchar(20),
+ @age      int,
+ @address  varchar(50),
+ @created  timestamp(10)
+ )
+ As
+ Begin
+ Select * from user_fields
+ End
+
+3.Create proc user_fields
+ (
+ @id       int,
+ @name     varchar(20),
+ @age      int,
+ @address  varchar(50),
+ @created  timestamp(10)
+ )
+ As
+ Begin
+ Select * from user_fields
+ End
+
+4. Begin
+ Select * from user_fields WHERE age>30
+  End
+
+1. Create table employee
+ (
+ id          int,
+ name         varchar(20),
+ department   varchar(10)
+ )
+2. Create table employee_audit
+ (
+ id          int,
+ name         varchar(20),
+ emp_no       varchar(10),
+ change_date  timestamp(10)
+ )
+
+3. Create trigger after employee update
+    on employee_audit
+    for each row
+    begin
+ Insert into employee values(001,'Ramesh','Testing')
+    end;
+ Create trigger after employee update
+    on employee_audit
+    for each row
+    begin
+ Update employee_no='001A' Set
+    end;

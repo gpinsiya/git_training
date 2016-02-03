@@ -1,0 +1,30 @@
+1.    Create database employees
+2(a). Create table employees
+	(
+	first_name 	char(20),
+	last_name 	char(20),
+	email 		varchar(20),
+	emp_code        varchar(5);
+	joining_date    timestamp(8),
+	terminate_date  timestamp(8),
+	active		enum(2),
+	created         timestamp(8);
+	phone           int(10)
+	)
+2(b). Create table salary
+	(
+	epm_id          int(5),
+	spc_allowance   varchar(10),
+	HRA		int(5),
+	DA		int(5),
+	total_salary	int(10),
+	month		int(2)
+	)
+3(a). Insert into employees values('Ramesh','Singh','rameshsingh@yahoo.com','emp_001','10.01.2012','10.02.2016','01','10.01.2012','9765001122');
+3(b). Insert into salary values('001','10%','20,000',5,000','10,00,000','10');
+4(a). Update employees set last_name='sharma' WHERE first_name='Ramesh';
+4(b). Delete from employees WHERE first_name='Ramesh';
+5.    Select first_name,last_name from employees WHERE first_name='Ramesh'AND emp_code='001';
+6(a). Select column_list from employees WHERE ORDER BY first_name[ASC];
+6(b). Select column_list from employees WHERE ORDER BY first_name[DSC];
+

@@ -1,0 +1,14 @@
+.tables{
+	border: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+	border: 1px solid black;
+    border-collapse: collapse;
+	padding: 5px;
+	}
+td{
+	border: 1px solid black;
+    border-collapse: collapse;
+	padding: 5px;
+	} 

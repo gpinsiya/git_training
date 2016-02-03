@@ -1,0 +1,1 @@
+function image_slider(){var e=image1.src;image1.src=image2.src,image2.src=image3.src,image3.src=image4.src,image4.src=e}window.setInterval(image_slider,3e3);

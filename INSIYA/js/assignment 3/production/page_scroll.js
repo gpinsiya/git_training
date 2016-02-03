@@ -1,0 +1,1 @@
+document.onscroll=function(e,o){var t=document.body.scrollTop,e=document.body.scrollHeight/2;t>e&&(document.getElementById("js-btn").style.display="block"),e>t&&(document.getElementById("js-btn").style.display="none")};
